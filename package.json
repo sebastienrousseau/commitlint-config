@@ -1,0 +1,51 @@
+{
+  "name": "@sebastienrousseau/commitlint-config",
+  "version": "1.0.0",
+  "description": "Shareable Conventional Commits commitlint configuration rules",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/commitlint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/commitlint-config/issues"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config",
+    "conventional-commits",
+    "git-commit"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0"
+  }
+}
