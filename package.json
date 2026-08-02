@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/commitlint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Shareable Conventional Commits commitlint configuration rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
