@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/commitlint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable Conventional Commits commitlint configuration rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
@@ -48,7 +48,7 @@
     "@commitlint/cli": ">=18.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.0",
-    "@commitlint/config-conventional": "^19.0.0"
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0"
   }
 }
