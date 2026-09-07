@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use @sebastienrousseau/commitlint-config in your work, please cite it as below."
+title: "@sebastienrousseau/commitlint-config"
+type: software
+authors:
+  - family-names: Rousseau
+    given-names: Sebastien
+    email: sebastian.rousseau@gmail.com
+repository-code: "https://github.com/sebastienrousseau/commitlint-config"
+url: "https://github.com/sebastienrousseau/commitlint-config"
+license: "Apache-2.0 OR MIT"
+version: 0.0.4
+date-released: "2026-09-07"
+abstract: >-
+  Shareable Conventional Commits commitlint configuration rules
