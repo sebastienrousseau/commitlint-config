@@ -1,33 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Modern Commitlint ESM Configuration
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  extends: ["@commitlint/config-conventional"],
-  rules: {
-    "body-max-line-length": [2, "always", 100],
-    "footer-max-line-length": [2, "always", 100],
-    "header-max-length": [2, "always", 72],
-    "subject-case": [2, "never", ["sentence-case", "start-case", "pascal-case", "upper-case"]],
-    "subject-empty": [2, "never"],
-    "subject-full-stop": [2, "never", "."],
-    "type-case": [2, "always", "lower-case"],
-    "type-empty": [2, "never"],
-    "type-enum": [
-      2,
-      "always",
-      [
-        "build",
-        "chore",
-        "ci",
-        "docs",
-        "feat",
-        "fix",
-        "perf",
-        "refactor",
-        "revert",
-        "style",
-        "test"
-      ]
-    ]
-  }
-};
+
+import config from "./index.cjs";
+
+export default config;
