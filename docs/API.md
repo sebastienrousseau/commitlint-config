@@ -5,6 +5,7 @@ Comprehensive schema, property definitions, and exported options reference for `
 ---
 
 ## Description
+
 Shareable Commitlint rules enforcing Conventional Commits and commit hygiene.
 
 ---
@@ -22,26 +23,31 @@ Shareable Commitlint rules enforcing Conventional Commits and commit hygiene.
 ## Feature & Property Reference
 
 ### 1. Conventional Commits Extension
+
 - **Description**: Inherits @commitlint/config-conventional baseline
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 2. Header Max Length
+
 - **Description**: Enforces 72 character ceiling on commit headers
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 3. Body & Footer Max Line Length
+
 - **Description**: Enforces 100 character line wraps in commit bodies
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 4. Allowed Type Enum
+
 - **Description**: Restricts commit types to standard conventional prefixes
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 5. Case Restrictions
+
 - **Description**: Enforces lower-case subjects and types with no trailing punctuation
 - **Scope**: Production & Development
 - **Status**: Stable & Active

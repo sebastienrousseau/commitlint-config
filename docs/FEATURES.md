@@ -22,17 +22,22 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. Conventional Commits Extension
+
 Inherits @commitlint/config-conventional baseline. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Header Max Length
+
 Enforces 72 character ceiling on commit headers. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Body & Footer Max Line Length
+
 Enforces 100 character line wraps in commit bodies. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Allowed Type Enum
+
 Restricts commit types to standard conventional prefixes. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 5. Case Restrictions
+
 Enforces lower-case subjects and types with no trailing punctuation. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
