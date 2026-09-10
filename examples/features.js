@@ -1,11 +1,19 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * 100% Feature Showcase for @sebastienrousseau/commitlint-config
  */
 const config = require("../index.cjs");
 const assert = require("assert");
 
-console.log("=== 100% Feature Showcase: @sebastienrousseau/commitlint-config ===");
-assert(Array.isArray(config.extends) && config.extends.includes("@commitlint/config-conventional"));
+console.log(
+  "=== 100% Feature Showcase: @sebastienrousseau/commitlint-config ===",
+);
+assert(
+  Array.isArray(config.extends) &&
+    config.extends.includes("@commitlint/config-conventional"),
+);
 assert(config.rules && typeof config.rules === "object");
 assert.strictEqual(config.rules["header-max-length"][2], 72);
 assert.strictEqual(config.rules["type-case"][2], "lower-case");

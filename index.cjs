@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * Modern Commitlint CommonJS Configuration
  */
@@ -7,7 +10,11 @@ module.exports = {
     "body-max-line-length": [2, "always", 100],
     "footer-max-line-length": [2, "always", 100],
     "header-max-length": [2, "always", 72],
-    "subject-case": [2, "never", ["sentence-case", "start-case", "pascal-case", "upper-case"]],
+    "subject-case": [
+      2,
+      "never",
+      ["sentence-case", "start-case", "pascal-case", "upper-case"],
+    ],
     "subject-empty": [2, "never"],
     "subject-full-stop": [2, "never", "."],
     "type-case": [2, "always", "lower-case"],
@@ -26,8 +33,8 @@ module.exports = {
         "refactor",
         "revert",
         "style",
-        "test"
-      ]
-    ]
-  }
+        "test",
+      ],
+    ],
+  },
 };
