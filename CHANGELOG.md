@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Security
+
+- `package-lock.json` moves fast-uri 3.1.8 to 3.1.9 (GHSA-w74x-v6f9-j3xg,
+  GHSA-xhq7-xmqj-769h, GHSA-wjr9-j795-jxcr, GHSA-333x-w4r6-6crp).
+
 ## [0.0.7] - 2026-09-10
 
 ### Added
